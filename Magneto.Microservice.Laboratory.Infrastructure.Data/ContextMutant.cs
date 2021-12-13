@@ -2,6 +2,7 @@
 using Magneto.Microservice.Laboratory.Infrastructure.Interfaces;
 using Microsoft.Extensions.Configuration;
 using MongoDB.Driver;
+using System.Security.Authentication;
 
 namespace Magneto.Microservice.Laboratory.Infrastructure.Data
 {
@@ -13,8 +14,13 @@ namespace Magneto.Microservice.Laboratory.Infrastructure.Data
         public ContextMutant(IConfiguration configuration)
         {
             _configuration = configuration;
-            _mongoClient = new MongoClient(_configuration.GetConnectionString(CONSTRING));
 
+            MongoClientSettings settings = MongoClientSettings.FromUrl(
+            new MongoUrl(@_configuration.GetConnectionString(CONSTRING))
+            );
+            settings.SslSettings =
+            new SslSettings() { EnabledSslProtocols = SslProtocols.Tls12 };
+            _mongoClient = new MongoClient(settings);
         }
         public async void InsertMutant(Mutant mutant)
         {
