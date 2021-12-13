@@ -1,4 +1,4 @@
-namespace Magneto.Microservices.Orchestrator
+namespace Magneto.Microservices.Laboratory
 {
     public class Program
     {

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Magneto.Microservice.Orchestrator.Infrastructure.Interfaces\Magneto.Microservice.Orchestrator.Infrastructure.Interfaces.csproj" />
+    <ProjectReference Include="..\Magneto.Microservice.Laboratory.Infrastructure.Interfaces\Magneto.Microservice.Laboratory.Infrastructure.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Magneto.Microservice.Orchestrator.Domain.Entity
+namespace Magneto.Microservice.Laboratory.Domain.Entity
 {
     [BsonIgnoreExtraElements]
     public class Human

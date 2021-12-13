@@ -3,31 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31825.309
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Magneto.Microservices.Orchestrator", "Magneto.Microservices.Orchestrator", "{2F308669-589B-47EC-AE55-FA444B1D7899}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Magneto.Microservices.Laboratory", "Magneto.Microservices.Laboratory", "{2F308669-589B-47EC-AE55-FA444B1D7899}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magneto.Microservices.Orchestrator", "Magneto.Microservices.Orchestrator\Magneto.Microservices.Orchestrator.csproj", "{1F8E549D-874A-4B6B-86F7-2074B87A371D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magneto.Microservices.Laboratory", "Magneto.Microservices.Laboratory\Magneto.Microservices.Laboratory.csproj", "{1F8E549D-874A-4B6B-86F7-2074B87A371D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{93C70123-6B58-4EED-B54B-88202CB161BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magneto.Microservice.Orchestrator.Application.Dto", "Magneto.Microservice.Orchestrator.Application.Dto\Magneto.Microservice.Orchestrator.Application.Dto.csproj", "{A0D1A9C9-6EAF-41A6-9C3F-A1DCEA03AC22}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magneto.Microservice.Laboratory.Application.Dto", "Magneto.Microservice.Laboratory.Application.Dto\Magneto.Microservice.Laboratory.Application.Dto.csproj", "{A0D1A9C9-6EAF-41A6-9C3F-A1DCEA03AC22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magneto.Microservice.Orchestrator.Application.Main", "Magneto.Microservice.Orchestrator.Application.Main\Magneto.Microservice.Orchestrator.Application.Main.csproj", "{180FF90B-9899-4C88-A624-83A916832962}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magneto.Microservice.Laboratory.Application.Main", "Magneto.Microservice.Laboratory.Application.Main\Magneto.Microservice.Laboratory.Application.Main.csproj", "{180FF90B-9899-4C88-A624-83A916832962}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{C98B8D0E-FC0D-4695-950E-1468D56F26CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magneto.Microservice.Orchestrator.Domain.Entity", "Magneto.Microservice.Orchestrator.Domain.Entity\Magneto.Microservice.Orchestrator.Domain.Entity.csproj", "{CE90242E-7195-4F83-9618-5470F5E3A6DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magneto.Microservice.Laboratory.Domain.Entity", "Magneto.Microservice.Laboratory.Domain.Entity\Magneto.Microservice.Laboratory.Domain.Entity.csproj", "{CE90242E-7195-4F83-9618-5470F5E3A6DA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F606CF60-21DC-4A2E-9689-2C18B0A69397}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magneto.Microservice.Orchestrator.Infrastructure.Data", "Magneto.Microservice.Orchestrator.Infrastructure.Data\Magneto.Microservice.Orchestrator.Infrastructure.Data.csproj", "{1A0C1D77-6921-447A-B9D4-A20C3F067FEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magneto.Microservice.Laboratory.Infrastructure.Data", "Magneto.Microservice.Laboratory.Infrastructure.Data\Magneto.Microservice.Laboratory.Infrastructure.Data.csproj", "{1A0C1D77-6921-447A-B9D4-A20C3F067FEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magneto.Microservice.Orchestrator.Infrastructure.Interfaces", "Magneto.Microservice.Orchestrator.Infrastructure.Interfaces\Magneto.Microservice.Orchestrator.Infrastructure.Interfaces.csproj", "{25125386-6AD7-4496-AAA7-94B60FBCFCC5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magneto.Microservice.Laboratory.Infrastructure.Interfaces", "Magneto.Microservice.Laboratory.Infrastructure.Interfaces\Magneto.Microservice.Laboratory.Infrastructure.Interfaces.csproj", "{25125386-6AD7-4496-AAA7-94B60FBCFCC5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transversal", "Transversal", "{BFD907E9-6EFE-4EF6-91C2-BA8629EED154}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Bus", "RabbitMQ.Bus\RabbitMQ.Bus.csproj", "{9064F26B-0C68-40AF-BADA-C8C3B56684E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magneto.Microservice.Orchestrator.Application.Map", "Magneto.Microservice.Orchestrator.Application.Map\Magneto.Microservice.Orchestrator.Application.Map.csproj", "{49E65EF4-B76E-47BF-A7F2-AC9C3AE9DF2B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magneto.Microservice.Laboratory.Application.Map", "Magneto.Microservice.Laboratory.Application.Map\Magneto.Microservice.Laboratory.Application.Map.csproj", "{49E65EF4-B76E-47BF-A7F2-AC9C3AE9DF2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

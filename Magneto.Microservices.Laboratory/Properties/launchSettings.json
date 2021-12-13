@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "Magneto.Microservices.Orchestrator": {
+    "Magneto.Microservices.Laboratory": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

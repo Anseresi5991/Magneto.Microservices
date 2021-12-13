@@ -1,10 +1,10 @@
-﻿using Magneto.Microservice.Orchestrator.Application.Dto;
-using Magneto.Microservice.Orchestrator.Domain.Entity;
-using Magneto.Microservice.Orchestrator.Infrastructure.Interfaces;
+﻿using Magneto.Microservice.Laboratory.Application.Dto;
+using Magneto.Microservice.Laboratory.Domain.Entity;
+using Magneto.Microservice.Laboratory.Infrastructure.Interfaces;
 using RabbitMQ.Bus.RabbitBus;
 using System.Threading.Tasks;
 
-namespace Magneto.Microservice.Orchestrator.Application.Main
+namespace Magneto.Microservice.Laboratory.Application.Main
 {
     public class QueueEventHandler : IEventHandler<DemoQueue>
     {

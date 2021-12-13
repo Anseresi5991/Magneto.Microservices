@@ -1,4 +1,4 @@
-﻿using Magneto.Microservice.Orchestrator.Infrastructure.Interfaces;
+﻿using Magneto.Microservice.Laboratory.Infrastructure.Interfaces;
 using MediatR;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;

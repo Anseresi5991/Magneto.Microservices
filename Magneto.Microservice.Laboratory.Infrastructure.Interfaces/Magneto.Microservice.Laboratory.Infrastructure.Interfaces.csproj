@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Magneto.Microservice.Orchestrator.Domain.Entity\Magneto.Microservice.Orchestrator.Domain.Entity.csproj" />
+    <ProjectReference Include="..\Magneto.Microservice.Laboratory.Domain.Entity\Magneto.Microservice.Laboratory.Domain.Entity.csproj" />
   </ItemGroup>
 
 </Project>

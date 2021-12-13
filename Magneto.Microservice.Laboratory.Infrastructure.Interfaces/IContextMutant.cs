@@ -1,6 +1,6 @@
-﻿using Magneto.Microservice.Orchestrator.Domain.Entity;
+﻿using Magneto.Microservice.Laboratory.Domain.Entity;
 
-namespace Magneto.Microservice.Orchestrator.Infrastructure.Interfaces
+namespace Magneto.Microservice.Laboratory.Infrastructure.Interfaces
 {
     public interface IContextMutant
     {

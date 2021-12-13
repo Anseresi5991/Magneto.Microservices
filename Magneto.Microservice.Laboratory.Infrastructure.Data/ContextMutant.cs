@@ -1,9 +1,9 @@
-﻿using Magneto.Microservice.Orchestrator.Domain.Entity;
-using Magneto.Microservice.Orchestrator.Infrastructure.Interfaces;
+﻿using Magneto.Microservice.Laboratory.Domain.Entity;
+using Magneto.Microservice.Laboratory.Infrastructure.Interfaces;
 using Microsoft.Extensions.Configuration;
 using MongoDB.Driver;
 
-namespace Magneto.Microservice.Orchestrator.Infrastructure.Data
+namespace Magneto.Microservice.Laboratory.Infrastructure.Data
 {
     public class ContextMutant : IContextMutant
     {

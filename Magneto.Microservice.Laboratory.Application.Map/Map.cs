@@ -1,8 +1,8 @@
-﻿using Magneto.Microservice.Orchestrator.Application.Dto;
-using Magneto.Microservice.Orchestrator.Domain.Entity;
+﻿using Magneto.Microservice.Laboratory.Application.Dto;
+using Magneto.Microservice.Laboratory.Domain.Entity;
 using Newtonsoft.Json;
 
-namespace Magneto.Microservice.Orchestrator.Application.Map
+namespace Magneto.Microservice.Laboratory.Application.Map
 {
     public class Map
     {

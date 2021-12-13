@@ -1,6 +1,6 @@
 ﻿using RabbitMQ.Bus.Events;
 
-namespace Magneto.Microservice.Orchestrator.Application.Dto
+namespace Magneto.Microservice.Laboratory.Application.Dto
 {
     public class DemoQueue:Event
     {

@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Magneto.Microservices.Orchestrator.Controllers
+namespace Magneto.Microservices.Laboratory.Controllers
 {
     [ApiController]
     [Route("[controller]")]

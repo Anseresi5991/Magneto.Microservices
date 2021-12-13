@@ -1,14 +1,14 @@
-﻿using Magneto.Microservice.Orchestrator.Application.Dto;
-using Magneto.Microservice.Orchestrator.Application.Main;
-using Magneto.Microservice.Orchestrator.Infrastructure.Data;
-using Magneto.Microservice.Orchestrator.Infrastructure.Interfaces;
+﻿using Magneto.Microservice.Laboratory.Application.Dto;
+using Magneto.Microservice.Laboratory.Application.Main;
+using Magneto.Microservice.Laboratory.Infrastructure.Data;
+using Magneto.Microservice.Laboratory.Infrastructure.Interfaces;
 using MediatR;
 using Microsoft.OpenApi.Models;
 using MongoDB.Driver;
 using RabbitMQ.Bus.Implementations;
 using RabbitMQ.Bus.RabbitBus;
 
-namespace Magneto.Microservices.Orchestrator
+namespace Magneto.Microservices.Laboratory
 {
     public class Startup
     {
@@ -22,7 +22,7 @@ namespace Magneto.Microservices.Orchestrator
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            var assembly = AppDomain.CurrentDomain.Load("Magneto.Microservice.Orchestrator.Application.Main");
+            var assembly = AppDomain.CurrentDomain.Load("Magneto.Microservice.Laboratory.Application.Main");
             services.AddSingleton<IContextMutant, ContextMutant>();
             services.AddTransient<IRabbitEventBus, RabbitEventBus>();
             services.AddTransient<IEventHandler<DemoQueue>, QueueEventHandler>();
@@ -30,7 +30,7 @@ namespace Magneto.Microservices.Orchestrator
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Magneto.Microservice.Orchestrator", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Magneto.Microservice.Laboratory", Version = "v1" });
             });
         }
 
@@ -41,7 +41,7 @@ namespace Magneto.Microservices.Orchestrator
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Magneto.Microservice.Orchestrator v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Magneto.Microservice.Laboratory v1"));
             }
 
             app.UseHttpsRedirection();
